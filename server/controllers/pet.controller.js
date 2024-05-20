@@ -1,6 +1,6 @@
 const Pet = require('../models/pet.model');
 
-module.exports.findAllPet = (req, res) => {
+module.exports.findAllPets = (req, res) => {
   Pet.find()
     .then((allDaPets) => {
       res.json(allDaPets);
