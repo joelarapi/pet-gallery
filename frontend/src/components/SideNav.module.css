@@ -1,0 +1,58 @@
+.top{
+  height: 99vh;
+  width: 275px;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  padding: 8px;
+  align-items: center;
+}
+
+.h1{
+  font-size: 38px;
+  text-align: center;
+  font-family: cursive;
+}
+
+.image{
+  width: 275px;
+}
+
+
+.options ul{
+  margin-bottom: 20px;
+  width: 100%;
+  
+}
+.options a{
+  list-style: none;
+  font-size: 22px;
+  font-family: cursive;
+  color: white;
+  text-decoration: none;
+  padding: 4px 10px;
+}
+
+
+
+.options a:hover,
+.options a.active{
+  color: #663fc4;
+  background-color: #fbc2eb;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+
+.logoutButton{
+  background-color: inherit;
+  border: none;
+  color: white;
+  font-family: cursive;
+  font-size: 24px;
+  margin-top: 250px;
+  cursor: pointer;
+}
+
+.logoutImg{
+  width: 20px;
+  height: 20px;
+}

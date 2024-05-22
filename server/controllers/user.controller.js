@@ -2,6 +2,9 @@ const User = require('../models/user.model');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 
+
+console.log('JWT_SECRET in controller:', process.env.JWT_SECRET);
+
 module.exports = {
   register: async (req, res) => {
     try {
@@ -67,3 +70,5 @@ module.exports = {
     }
   },
 };
+
+

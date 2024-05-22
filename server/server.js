@@ -3,7 +3,8 @@ const cors = require('cors');
 const app = express();
 const cookieParser = require('cookie-parser');
 
-require('dotenv').config();   
+require('dotenv').config(); 
+console.log('JWT_SECRET:', process.env.JWT_SECRET);  
 
 app.use(express.json());                           
 app.use(express.urlencoded({ extended: true }));  
@@ -24,4 +25,4 @@ app.listen(8000, () => {
     console.log("Listening at Port 8000")
 })
 
-console.log('SECRET_KEY:', process.env.SECRET_KEY);
+console.log('JWT_SECRET:', process.env.JWT_SECRET);

@@ -1,0 +1,7 @@
+.rootLayout{
+  display: flex;
+}
+.nav{
+  display: inline-block;
+  position: relative;
+}

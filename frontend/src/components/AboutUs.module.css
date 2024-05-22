@@ -1,0 +1,42 @@
+.sepDiv{
+  width: 70%;
+  border: 2px solid #a18cd1;
+}
+
+.container{
+  width: 70%;
+  margin: auto;
+}
+
+.aboutUs{
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 40px;
+}
+
+.container h1{
+  font-family: cursive;
+  color: #663fc4;
+  font-weight: 400;
+}
+.imgRes{
+  width: 225px;
+  height: 225px;
+  object-fit: contain;
+  -webkit-box-shadow: 4px 9px 16px -7px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 9px 16px -7px rgba(0,0,0,0.75);
+  box-shadow: 4px 9px 16px -7px rgba(0,0,0,0.75);
+}
+
+.conDiv{
+  display: flex;
+  margin-top: 40px;
+}
+
+.teamDiv{
+  margin-top: 40px;
+}
+
+.infoDiv{
+  margin-left: 20px;
+}
