@@ -1,7 +1,5 @@
-.rootLayout{
+
+.container{
   display: flex;
 }
-.nav{
-  display: inline-block;
-  position: relative;
-}
+

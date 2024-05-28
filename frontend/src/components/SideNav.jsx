@@ -2,12 +2,21 @@ import classes from "./SideNav.module.css";
 import logo from "../icons/logo.svg";
 import logoutIcon from "../icons/logoutIcon.svg";
 import axios from "axios";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate, NavLink } from "react-router-dom";
 
 const SideNav = () => {
   const [errMsg, setErrMsg] = useState("");
+  const [isAdmin, setIsAdmin] = useState(false);
   const navigate = useNavigate();
+
+
+  useEffect(() => {
+    const userData = JSON.parse(localStorage.getItem("userData"));
+    if (userData && userData.isAdmin) {
+      setIsAdmin(true);
+    }
+  }, []);
 
   function handleLogout(e) {
     e.preventDefault();

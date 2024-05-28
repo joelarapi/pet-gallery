@@ -14,22 +14,13 @@ module.exports.findAllPets = (req, res) => {
 module.exports.findOneSinglePet = (req, res) => {
   Pet.findOne({ _id: req.params.id })
     .then((oneSinglePet) => {
-      res.json({ pet: oneSinglePet });
+      res.json(oneSinglePet);
     })
     .catch((err) => {
       res.json({ message: 'Something went wrong', error: err });
     });
 };
 
-module.exports.createNewPet = (req, res) => {
-  Pet.create(req.body)
-    .then((newlyCreatedPet) => {
-      res.json({ pet: newlyCreatedPet });
-    })
-    .catch((err) => {
-      res.json({ message: 'Something went wrong', error: err });
-    });
-};
 
 module.exports.updateExistingPet = (req, res) => {
   Pet.findOneAndUpdate(

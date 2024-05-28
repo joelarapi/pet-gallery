@@ -23,27 +23,27 @@ const ContactPage = () => {
 
         <form className={classes.contactForm}>
         <div className={classes.inputDiv}>
-          <label>
+          <h1>
             Your Name<span className={classes.red}>*</span>
-          </label>
+          </h1>
           <input />
         </div>
         <div className={classes.inputDiv}>
-          <label>
+          <h1>
             Your Email<span className={classes.red}>*</span>
-          </label>
+          </h1>
           <input />
         </div>
         <div className={classes.inputDiv}>
-          <label>
+          <h1>
             Subject
-          </label>
+          </h1>
           <input />
         </div>
         <div className={classes.inputDiv}>
-          <label>
+          <h1>
             Your message
-          </label>
+          </h1>
           <textarea />
         </div>
 

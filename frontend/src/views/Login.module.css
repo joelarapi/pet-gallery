@@ -96,16 +96,16 @@
 .loginButton {
   width: 340px;
   height: 60px;
-  color: #1882b1;
-  background-color: #DDECF3;
+  color: #a18cd1;
+  background-color: white;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  border: none;
+  border: 1px solid #a18cd1;
 }
 
 .loginButton:hover {
   color: #ffffff;
-  background-color: #1882b1;
+  background-color: #a18cd1;
   transition: all 0.3s;
 }
 

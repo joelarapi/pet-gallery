@@ -1,0 +1,35 @@
+.container {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.container h1 {
+  font-family: cursive;
+  color: #663fc4;
+  font-weight: 400;
+}
+
+.sepDiv {
+  width: 100%;
+  border: 2px solid #a18cd1;
+}
+
+
+
+
+.galleryRow {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.galleryRow h1{
+  font-family: cursive;
+  color: #663fc4;
+  font-weight: 400;
+}
+
+
+
+

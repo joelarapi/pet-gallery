@@ -28,10 +28,8 @@ const Login = () => {
         }
       );
   
-      console.log(response.config);
-  
+
       const userData = response?.data?.user;
-  
       if (userData) {
         localStorage.setItem("userData", JSON.stringify(userData));
   
@@ -39,7 +37,7 @@ const Login = () => {
         setPassword("");
   
         if (userData.isAdmin) {
-          navigate("/admin-dashboard");
+          navigate("/dashboard");
         } else {
           navigate("/dashboard");
         }
@@ -51,8 +49,6 @@ const Login = () => {
       setErrMsg("An error occurred during login.");
       console.error(err.response);
     }
-  
-    console.log({ email: username, password });
   };
 
   return (
@@ -68,7 +64,7 @@ const Login = () => {
         >
           {errMsg}
         </p>
-        <p className={classes.loginText}>Log in</p>
+        <h1>Log in</h1>
         <div className={classes.container}>
           <div className={classes.inputContainer}>
             <div className={classes.inputField}>
@@ -106,7 +102,7 @@ const Login = () => {
             Log In
           </button>
           <p className={classes.fPass}>
-            Forgot Password? <button className={classes.grayText}>Click Here</button>
+            Forgot Password? <a className={classes.grayText}>Click Here</a>
           </p>
         </div>
       </form>

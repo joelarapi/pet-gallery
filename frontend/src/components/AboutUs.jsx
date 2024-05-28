@@ -6,7 +6,7 @@ const AboutUs = () => {
     <div className={classes.container}>
       <div>
         <h1 className={classes.header}>About us</h1>
-        <div className={classes.sepDiv}></div>
+        <div className='sepDiv'></div>
         <p className={classes.aboutUs}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor
@@ -22,7 +22,7 @@ const AboutUs = () => {
 
       <div className={classes.teamDiv}>
         <h1>Meet our Team </h1>
-        <div className={classes.sepDiv}></div>
+        <div className='sepDiv'></div>
         <div className={classes.conDiv}>
           <img src={joelPic} className={classes.imgRes} />
           <div className={classes.infoDiv}>
@@ -35,6 +35,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 };

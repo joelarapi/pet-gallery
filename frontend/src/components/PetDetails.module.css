@@ -1,0 +1,77 @@
+.detailCard{
+display: flex;
+margin-top: 40px;
+justify-content: center;
+}
+
+.key{
+  font-family: cursive;
+  font-size: 24px;
+  color:#663fc4 ;
+}
+
+.detailCard p{
+  font-size: 22px;
+  font-family: cursive;
+}
+
+.detailImg{
+  object-fit: cover;
+  width: 400px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.buttonsDiv {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 20px; 
+  gap: 20px; 
+}
+
+
+
+
+.editBttn{
+  border: 1px solid lightgreen;
+  color: lightgreen;
+  background-color: white;
+  padding: 8px 14px;
+  width: 250px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 20px;
+ }
+ .editBttn:hover{
+   color: white;
+   background-color: lightgreen;
+   transition: 0.3s;
+ }
+ 
+ .deleteBttn{
+  border: 1px solid rgb(206, 20, 20);
+  color: rgb(206, 20, 20);
+  background-color: white;
+  padding: 8px 14px;
+  width: 250px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 20px;
+ }
+ .deleteBttn:hover{
+   color: white;
+   background-color: rgb(206, 20, 20);
+   transition: 0.3s;
+ }
+
+ .infoTable{
+  width: 100%;
+ }
+ 
+
+
+
+

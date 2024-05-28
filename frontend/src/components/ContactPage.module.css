@@ -47,7 +47,6 @@ font-size: 24px;
   width: 350px;
   height: 35px;
   line-height: 24px;
-  font-size: ;
 }
 
 
@@ -58,11 +57,12 @@ font-size: 24px;
 
 .submitButton{
   margin-top: 30px;
-  width: 120px;
+  padding: 8px 14px;
+  width: 250px;
   height: 50px;
-  background-color: gray;
-  color: white;
-  border: none;
+  background-color: white;
+  color: #a18cd1;
+  border: 1px solid #a18cd1;
   border-radius: 6px;
 }
 
@@ -70,4 +70,5 @@ font-size: 24px;
   cursor: pointer;
   background-color: #a18cd1;
   transition: 0.3s;
+  color: white;
 }

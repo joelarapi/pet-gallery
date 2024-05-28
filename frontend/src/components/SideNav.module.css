@@ -1,9 +1,13 @@
 .top{
-  height: 99vh;
+  height: 98vh;
   width: 275px;
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
   padding: 8px;
   align-items: center;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  text-align: center;
 }
 
 .h1{
@@ -20,6 +24,7 @@
 .options ul{
   margin-bottom: 20px;
   width: 100%;
+  padding: 0;
   
 }
 .options a{
@@ -28,7 +33,7 @@
   font-family: cursive;
   color: white;
   text-decoration: none;
-  padding: 4px 10px;
+  padding: 0;
 }
 
 
@@ -48,7 +53,6 @@
   color: white;
   font-family: cursive;
   font-size: 24px;
-  margin-top: 250px;
   cursor: pointer;
 }
 
