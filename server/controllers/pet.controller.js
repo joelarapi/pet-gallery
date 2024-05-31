@@ -21,6 +21,15 @@ module.exports.findOneSinglePet = (req, res) => {
     });
 };
 
+module.exports.createNewPet = (req, res) => {
+  Pet.create(req.body)
+    .then((newlyCreatedPet) => {
+      res.json(newlyCreatedPet);
+    })
+    .catch((err) => {
+      res.json({ message: 'Something went wrong', error: err });
+    });
+};
 
 module.exports.updateExistingPet = (req, res) => {
   Pet.findOneAndUpdate(

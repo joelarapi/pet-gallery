@@ -28,7 +28,7 @@ const EditPet = () => {
     axios
       .get(`http://localhost:8000/api/pet/${id}`)
       .then((response) => {
-        setPet(response.data.pet);
+        setPet(response.data);
       })
       .catch((error) => {
         console.error("There was an error fetching the pet data!", error);
