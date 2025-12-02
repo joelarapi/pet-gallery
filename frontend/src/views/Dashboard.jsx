@@ -49,7 +49,7 @@ const UserDashboard = () => {
           <img src={birdImg} className='galleryImg' />
           <div className='cardInfo'>
             <h1>Bird Pictures</h1>
-            <p>Take a look at some of these cute bird pictures</p>
+            <p>Take a look at some of these cute bird pictures!!!!</p>
           </div>
         </div>
       </div>
